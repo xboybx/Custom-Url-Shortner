@@ -2,6 +2,7 @@ import express from 'express'
 import dotenv from 'dotenv'
 import cors from 'cors'
 import morgan from 'morgan'
+import path from 'path'
 import { connectDB } from './src/services/db/index.js'
 import urlRoutes from './src/routes/urlRoutes.js'
 
